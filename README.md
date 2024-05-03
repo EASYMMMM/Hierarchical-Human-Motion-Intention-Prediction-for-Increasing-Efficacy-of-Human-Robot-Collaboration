@@ -17,14 +17,14 @@ Repository/
 ├── SawingDataSelect.m
 ├── SubjectiveMetricsAnalysis.m
 ├── ObjectiveMetricsAnalysis.m
-└── CaseResult.m
+└── CaseResult_S1M4.m
 ```
 
 `RawExperimentalData/` includes all experimental data. There were forty .mat files in total (10 subjects, four trials each).
 
 `SawingDataSelect.m` is used to plot a rough presentation of the experimental data for each trial. In each trial, only the “fast sawing section” was used for analysis (see our work for details).
 
-`CaseResult.m` is used to plot the detailed case result (right part of Fig.3 in our work).
+`CaseResult_S1M4.m` is used to plot the detailed case result of subject1 in Mode4 (right part of Fig.3 in our work).
 
 `ObjectiveMetricsAnalysis`  is used to plot the results of the objective metrics of the experiment (Fig.4 in our work).
 
